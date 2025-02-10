@@ -55,14 +55,14 @@ AFRAME.registerComponent('game-field-manager', {
     if (this.el.sceneEl.systems.state.state.currentWave > 1) {
       this.countdown.setAttribute('countdown', {
         text: [
-          `Level ${this.el.sceneEl.systems.state.state.currentWave}`,
-          'READY',
-          'RECYCLE!',
+          `NIVEL ${this.el.sceneEl.systems.state.state.currentWave}`,
+          'FITI GATA!',
+          'RECICLEAZA!',
         ],
       });
     } else {
       this.countdown.setAttribute('countdown', {
-        text: ['READY', 'STEADY', 'RECYCLE!'],
+        text: ['PE LOCURI', 'FITI GATA', 'RECICLATI!'],
       });
     }
     this.el.emit('start-countdown');

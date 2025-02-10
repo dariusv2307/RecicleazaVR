@@ -5,7 +5,7 @@ AFRAME.registerTemplate(
       position="0 2 -4"
       scale="2 2 2"
       align="center"
-      value="GAME OVER"
+      value="JOC PIERDUT"
       color="white"
       material="color: white;"
     ></a-text>
@@ -13,7 +13,7 @@ AFRAME.registerTemplate(
       position="-0.5 1.6 -4"
       scale="1 1 1"
       align="center"
-      value="YOUR SCORE: "
+      value="SCORUL TAU: "
       color="white"
       material="color: white;"
     ></a-text>

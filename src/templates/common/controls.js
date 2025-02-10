@@ -1,4 +1,4 @@
-const COUNTDOWN_TEXT = ['READY', 'STEADY', 'RECYCLE!'];
+const COUNTDOWN_TEXT = ['PE LOCURI', 'FITI GATA', 'RECICLATI!'];
 
 AFRAME.registerTemplate(
   'controls',

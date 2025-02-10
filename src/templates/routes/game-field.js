@@ -3,7 +3,7 @@ AFRAME.registerTemplate(
   html`   
     <a-template
       name="button"
-      options="text: EXIT; position: 0 1 4; rotation: 0 180 0; event: stop-game"
+      options="text: IESI; position: 0 1 4; rotation: 0 180 0; event: stop-game"
     ></a-template>
     <a-entity
       id="indicator"

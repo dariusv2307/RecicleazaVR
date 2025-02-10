@@ -13,7 +13,7 @@ AFRAME.registerTemplate(
     </a-entity>
     <a-template
       name="button"
-      options="text: BACK; position: 2 0.5 -4; event: back; color: #5e9696"
+      options="text: INAPOI; position: 2 0.5 -4; event: back; color: #5e9696"
     ></a-template>
   `,
 );

@@ -33,14 +33,14 @@ AFRAME.registerComponent('tutorial', {
         if (currentWave === 1) {
             setTimeout(() => {
                 const platformButton = this.headsetConnected ? 'TRIGGER BUTTON' : 'LEFT MOUSE BUTTON';
-                this.el.setAttribute('text', {value: `GRAB THE TRASH VIA ${platformButton}`});
+                this.el.setAttribute('text', {value: `LUATI GUNOIUL CU ${platformButton}`});
             }, 2000);
         }
     },
 
     grabStart() {
         const platformButton = this.headsetConnected ? 'TOUCHPAD BUTTON' : 'SPACE';
-        this.el.setAttribute('text', {value: `THROW IT VIA ${platformButton}. HOLD TO THROW FURTHER.`});
+        this.el.setAttribute('text', {value: `ARUNCATI GUNOIUL CU ${platformButton}. TINE PENTRU A ARUNCA MAI MULT.`});
     },
 
     tutorialEnd() {

@@ -17,7 +17,7 @@ AFRAME.registerTemplate(
       <audio id="click" src="/assets/sounds/click.wav" preload></audio>
       <!-- Global -->
       <!-- Start Screen -->
-      <a-asset-item id="text" src="/assets/models/text.gltf"></a-asset-item>
+     
       <!-- Start Screen -->
       <!-- Game Field -->
       <audio id="glassHit" src="/assets/sounds/glass-hit.wav" preload></audio>

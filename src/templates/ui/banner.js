@@ -45,12 +45,12 @@ AFRAME.registerTemplate(
       <a-entity
         id="recycleText"
         position="-0.2 5.6 -10"
-        text="align: center; width: 9; color: #4C4C4C; value: RECYCLING"
+        text="align: center; width: 9; color: #4C4C4C; value: MARATON DE"
       ></a-entity>
       <a-entity
         id="marathonText"
         position="-0.2 5.2 -10"
-        text="align: center; width: 10; color: #4C4C4C; value: MARATHON"
+        text="align: center; width: 10; color: #4C4C4C; value: RECICLARE"
       ></a-entity>
     </a-entity>
   `,
